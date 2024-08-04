@@ -14,7 +14,7 @@ def generate_password(length, include_digits, include_symbols):
     return password
 
 def main():
-    print("Welcome to the Password Generator!")
+    print("Welcome, to the Password Generator!")
     
     # Get the password requirements from the user
     length = int(input("Enter the desired length of the password: "))
